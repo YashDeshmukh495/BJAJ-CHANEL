@@ -1,0 +1,21 @@
+{
+  "name": "bajaj-finserv-backend",
+  "version": "1.0.0",
+  "description": "Bajaj Finserv Health Dev Challenge Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["express", "bajaj", "challenge"],
+  "author": "Yash Deshmukh",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "file-type": "^16.5.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
