@@ -44,7 +44,7 @@ export default function App() {
     try {
       const parsedData = JSON.parse(jsonInput);
 
-      const apiResponse = await fetch('http://localhost:3000/bfhl', {
+      const apiResponse = await fetch('https://bajaj-backend-32p9.onrender.com/bfhl', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
